@@ -5,14 +5,14 @@
 
 $wp = "$Env:tmp\---wp.png"
 
-iwr $url -O $wp
+iwr $C:\Users\azizh\Downloads\download (1).jpeg -O $wp
 
 Function Set-WallPaper {
  
 param (
     [parameter(Mandatory=$True)]
     # Provide path to image
-    [string]$Image,
+    [string]$C:\Users\azizh\Downloads\download (1).jpeg , 
     # Provide wallpaper style that you would like applied
     [parameter(Mandatory=$False)]
     [ValidateSet('Fill', 'Fit', 'Stretch', 'Tile', 'Center', 'Span')]
